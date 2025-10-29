@@ -84,3 +84,25 @@ RUVO equips music managers with a suite of AI-driven tools that turn day-to-day 
 - **Artist outcomes:** Increases in streams, ticket sales, merch revenue, and press/playlist placements post-onboarding.
 - **Adoption & retention:** Weekly active managers, artist logins, and net promoter score (NPS) segmented by roster size.
 - **Revenue health:** Conversion rates from trial to paid tiers, ARPU by manager segment, and churn reasons captured via exit surveys.
+
+## Getting Started
+
+### Prerequisites
+- Python 3.10+
+- pip
+
+### Installation
+```bash
+pip install -r requirements.txt
+```
+
+### Running the API
+```bash
+uvicorn app.main:app --reload
+```
+The API will be available at `http://127.0.0.1:8000`. Interactive docs are automatically generated at `/docs`.
+
+### Running Tests
+```bash
+pytest
+```
